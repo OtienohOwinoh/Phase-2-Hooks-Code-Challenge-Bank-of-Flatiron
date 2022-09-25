@@ -83,6 +83,77 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "id": 15
+    },
+    {
+      "id": 16
+    },
+    {
+      "id": 17
+    },
+    {
+      "date": "2019-12-01",
+      "description": "Paycheck from Bob's Burgersbbbbbbbbb",
+      "category": "Income",
+      "amount": 1000,
+      "id": 18
+    },
+    {
+      "date": "2022-09-16",
+      "description": "This is a payment for lunch",
+      "category": "Meals",
+      "amount": "8888",
+      "id": 19
+    },
+    {
+      "date": "2022-09-29",
+      "description": "Transportation to office",
+      "category": "Transport",
+      "amount": "7777",
+      "id": 20
+    },
+    {
+      "date": "2022-09-15",
+      "description": "This is a payment for lunch",
+      "category": "kkkk",
+      "amount": "888",
+      "id": 21
+    },
+    {
+      "date": "2022-09-22",
+      "description": "This is a payment for lunch",
+      "category": "kkk",
+      "amount": "7777",
+      "id": 22
+    },
+    {
+      "date": "2022-09-22",
+      "description": "This is a payment for lunch 10",
+      "category": "kkk",
+      "amount": "7900",
+      "id": 23
+    },
+    {
+      "date": "2022-09-02",
+      "description": "uuuuuu",
+      "category": "cccc",
+      "amount": "6777",
+      "id": 24
+    },
+    {
+      "date": "2022-09-30",
+      "description": "fjskdjfk",
+      "category": "lflzkl",
+      "amount": "45",
+      "id": 25
     }
   ]
 }
