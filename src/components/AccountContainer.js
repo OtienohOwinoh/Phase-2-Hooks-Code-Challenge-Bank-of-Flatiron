@@ -7,21 +7,24 @@ import getTransactions from "./transactionsService"
 function AccountContainer() {
 
   const [transactions, setTransactions] = useState([])
-  // const [searchList, setTransactions] = useState([])
+  const [searchList, setSearchList] = useState([])
   
 
 useEffect(function useEffectFunction(){
   getTransactions().then(
-    (result) => setTransactions(result)
+    (result) => {
+      setTransactions(result)
+      setSearchList(result)
+    }
+    
   )
 }, []);
 
 
 function filterTransactions(term) {
-  // let searchlist = transactions
-  let results = transactions.filter(transaction=>transaction.description?.includes(term))
+ 
+  let results = searchList.filter(transaction=>transaction.description?.toLowerCase().includes(term.toLowerCase()))
   console.log("Results:" + transactions)
-  // console.log("term:" + transactions)
   setTransactions(results)
 }
 
