@@ -13,7 +13,8 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "server": "json-server --watch db.json -p 8001"
+    "server": "json-server --watch db.json -p 8001",
+    "build": "react-scripts --openssl-legacy-provider build"
   },
   "eslintConfig": {
     "extends": [
